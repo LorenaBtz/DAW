@@ -1,0 +1,17 @@
+{
+  "name": "api_restful",
+  "version": "1.0.0",
+  "description": "Como crear un API REST usando NodeJS, Express y MongoDB (https://carlosazaustre.es/como-crear-una-api-rest-usando-node-js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LorenaBtz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.12"
+  }
+}
