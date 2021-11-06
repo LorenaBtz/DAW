@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 let schema = new mongoose.Schema(
    {
       id: String,
-      cedula: number,
+      cedula: Number,
       nombre: String,
       apellido: String,
-      edad: number,
-      activo: boolean,
+      edad: Number,
+      activo: Boolean,
       usuario: String,
       contrasenia: String,
       genero: String
