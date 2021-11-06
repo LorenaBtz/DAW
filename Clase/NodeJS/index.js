@@ -9,7 +9,7 @@ app.use(express.json());
 // Mongoose => Connect to MongoDB
 const mongoose = require('mongoose');
 mongoose.connect(
-   'mongodb+srv://lorenabtz:DAW26@cluster0.x0nhw.mongodb.net/test?authSource=admin&replicaSet=atlas-uj7wyq-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true'
+  "mongodb://lorenabtz:DAW26@cluster0-shard-00-00.x0nhw.mongodb.net:27017,cluster0-shard-00-01.x0nhw.mongodb.net:27017,cluster0-shard-00-02.x0nhw.mongodb.net:27017/BDgrupo26?ssl=true&replicaSet=atlas-uj7wyq-shard-0&authSource=admin&retryWrites=true&w=majority"
 );
 
 // Schema => MongoDB
