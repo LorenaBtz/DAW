@@ -26,17 +26,34 @@ app.get(
 app.post(
    '/Usuarios',
    (req, res) => {
-   const data = req.body;
 
-      let usuario = new userSchema({
-         cedula: data.cedula,
-         nombre: data.nombre,
-         apellido: data.apellido,
-         edad: data.edad,
-         activo: data.activo,
-         usuario: data.usuario,
-         contrasenia: data.contrasenia,
-         genero: data.genero
+      try {
+         const data = req.body;
+
+         let usuario = new userSchema({
+            id: data.id,
+            cedula: data.cedula,
+            nombre: data.nombre,
+            apellido: data.apellido,
+            edad: data.edad,
+            activo: data.activo,
+            usuario: data.usuario,
+            contrasenia: data.contrasenia,
+            genero: data.genero
+         });
+         
+         usuario.save(
+            function(err, data) {
+               if (err) {
+                  res.send('Error al crear usuario: ' + err.message);
+               } else {
+                  res.send('Usuario creado correctamente: ' + JSON.stringify(data.usuario));
+               }
+            }
+         );
+      } catch (error) {
+         res.send('Ocurrio una Excepcion: ' + error.message);
+      }
    }
 );
 
