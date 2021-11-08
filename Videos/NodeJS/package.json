@@ -1,7 +1,7 @@
 {
   "name": "crud-nodejs",
   "version": "1.0.0",
-  "description": "Introduccion a NodeJS",
+  "description": "Introduccion al CRUD con NodeJS",
   "main": "servidor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
