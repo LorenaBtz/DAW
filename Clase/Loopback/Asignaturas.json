@@ -1,0 +1,316 @@
+[{  
+  "nombre": "Competencias Comunicativas I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Constitución Política y Democracia",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree V",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree VI",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree VII",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree VIII",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Catedra EduFree IX",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Institucional",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Competencias Comunicativas II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Lógica Matemática",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Lógica Filosófica",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Epistemología I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Epistemología II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Investigación I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Investigación y Estadística Aplicada",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Seminario de Grado",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Consultorio I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Consultorio II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Consultorio III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Consultorio IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Investigativo",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva No Disciplinar I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva No Disciplinar II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva No Disciplinar III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva No Disciplinar IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Disciplinar I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Disciplinar II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Disciplinar III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Disciplinar IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Libre Integral I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Libre Integral II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Libre Integral III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "Electiva Libre Integral IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "Complementario",
+  "programaAcademicoId": {
+    "$oid": "618717f5a43fad2f70b63901"
+  }
+}]
