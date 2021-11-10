@@ -1,27 +1,22 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
+import {service} from '@loopback/core/src';
 import {
   Count,
   CountSchema,
   Filter,
   FilterExcludingWhere,
-  repository,
-  Where,
+  repository, Where
 } from '@loopback/repository';
 import {
-  post,
-  param,
-  get,
-  getModelSchemaRef,
-  patch,
-  put,
   del,
-  requestBody,
-  response,
+  get,
+  getModelSchemaRef, HttpErrors, param, patch, post, put, requestBody,
+  response
 } from '@loopback/rest';
-import {Persona} from '../models';
+import {Llaves} from '../config/llaves';
+import {Credenciales, Persona} from '../models';
 import {PersonaRepository} from '../repositories';
-import { service } from '@loopback/core/src';
-import { AutenticacionService } from '../services';
-import fetch from 'node-fetch';
+import {AutenticacionService} from '../services';
 
 export class PersonaController {
   constructor(
@@ -31,6 +26,29 @@ export class PersonaController {
     @service(AutenticacionService)
     public servicioAutenticacion: AutenticacionService,
   ) {}
+
+  @post('/identificarpersona')
+  @response(200, {
+      description: 'Identificacion de Usuario',
+  })
+  async identificarPersona(
+    @requestBody() credenciales : Credenciales
+  ){
+    const p = await this.servicioAutenticacion.IdentificarPersona(credenciales.usuario, credenciales.clave);
+    if (p){
+      const token = this.servicioAutenticacion.GenerarTokenJWT(p);
+      return {
+        datos: {
+          nombre: p.nombres + ' ' + p.apellidos,
+          correo: p.correo,
+          id: p.id
+        },
+        tk: token
+      }
+    }else{
+      throw new HttpErrors[401]('Datos Invalidos');
+    }
+  }
 
   @post('/personas')
   @response(200, {
@@ -51,21 +69,21 @@ export class PersonaController {
     persona: Omit<Persona, 'id'>,
   ): Promise<Persona> {
 
-    let clave = this.servicioAutenticacion.GenerarClave();
-    let claveCifrada = this.servicioAutenticacion.CifrarClave(clave);
+    const clave = this.servicioAutenticacion.GenerarClave();
+    const claveCifrada = this.servicioAutenticacion.CifrarClave(clave);
     persona.clave = claveCifrada;
-    let p = await this.personaRepository.create(persona);
+    const p = await this.personaRepository.create(persona);
 
     //Notificar al Usuario
-    let destino = persona.correo;
-    let asunto = 'Registro en la app de Pedidos';
-    let contenido = `Hola ${persona.nombres}, bienvenido a la app de Pedidos.\n\n Recuerda tu Usuario: ${persona.correo} y tú Clave: ${clave}`;
+    const destino = persona.correo;
+    const asunto = 'Registro en la app de Pedidos';
+    const contenido = `Hola ${persona.nombres}, bienvenido a la app de Pedidos.\n\n Recuerda tu Usuario: ${persona.correo} y tú Clave: ${clave}`;
 
-    fetch(`http://127.0.0.1:5000/correo?correo_destino=${destino}&asunto=${asunto}&contenido=${contenido}`)
+    fetch(`${Llaves.urlServicioNotificaciones}/correo?correo_destino=${destino}&asunto=${asunto}&contenido=${contenido}`)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .then((data: any) => {
       console.log(data);
     })
-
     return p;
   }
 
