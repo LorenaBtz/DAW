@@ -1,227 +1,425 @@
 ﻿[{  
-  "nombre": "FUNDAMENTOS DE ECONOMIA",
+  "nombre": "CONTABILIDAD GENERAL",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CONTABILIDAD DE EMPRESAS",
+  "nombre": "CONTABILIDAD FINANCIERA I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "TEORIA ECONÓMICA",
+  "nombre": "CONTABILIDAD FINANCIERA II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ANALISIS FINANCIERO",
+  "nombre": "LABORATORIO CONTABLE",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "DECISIONES FINANCIERAS",
+  "nombre": "CONSOLIDACION DE ESTADOS FINANCIEROS Y NIC",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ECONOMIA SOLIDARIA",
+  "nombre": "ANALISIS DE ESTADOS FINANCIEROS",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "MERCADO DE CAPITALES",
+  "nombre": "TEORIA CONTABLE I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ADMINISTRACIÓN Y ORGANIZACIONES",
+  "nombre": "TEORIA CONTABLE II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "COMPORTAMIENTO ORGANIZACIONAL",
+  "nombre": "SOFTWARE CONTABLE",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "MERCADEO",
+  "nombre": "COSTOS I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "PRODUCCION Y OPERACIONES",
+  "nombre": "COSTOS II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ADMINISTRACIÓN DEL TALENTO HUMANO",
+  "nombre": "PRESUPUESTOS",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ADMINISTRACIÓN PÚBLICA",
+  "nombre": "HACIENDA Y FINANZAS PUBLICAS",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "SEMINARIO TOMA DE DECISIONES",
+  "nombre": "PRESUPUESTO Y CONTABILIDAD PUBLICA",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "PRÁCTICA EMPRESARIAL",
+  "nombre": "FUNDAMENTOS TRIBUTARIOS",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "61871775a43fad2f70b638ff"
+    "$oid": "618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "RESPONSABILIDAD SOCIAL",
+  "nombre": "RENTA Y COMPLEMENTARIOS I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "GESTIÓN AMBIENTAL",
+  "nombre": "RENTA Y COMPLEMENTARIOS II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "LEGISLACIÓN EMPRESARIAL",
+  "nombre": "PROCEDIMIENTO TRIBUTARIO",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "PLANEACIÓN ESTRATEGICA",
+  "nombre": "PROCESOS CONTABLES Y ADMINISTRATIVOS",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "HISTORIA EMPRESARIAL",
+  "nombre": "CONTROL INTERNO",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "BASE TECNOLÓGICA",
+  "nombre": "AUDITORIA FINANCIERA",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CAMBIO DE PARADIGMAS",
+  "nombre": "ENFASIS I: Normas Internacionales de Auditoría",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "METODOLOGIA DE INNOVACIÓN",
+  "nombre": "ENFASIS II: Auditoría de Gestión",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "TALLER DE INNOVACIÓN",
+  "nombre": "ENFASIS III: Revisoría Fiscal",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "EMPRENDIMIENTO EMPRESARIAL",
+  "nombre": "ENFASIS I:  Est. y Legis. Mdo de Cap. en Colombia",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ENFASIS II: Operaciones Bursatiles y de Capitales",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ENFASIS III: Mercado de derivados en Colombia",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA DISCIPLINAR I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA DISCIPLINAR II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA DISCIPLINAR III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA DISCIPLINAR IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "AUDITORIA DE SISTEMAS",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "CONSULTORIO CONTABLE I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "INVESTIGATIVO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "CONSULTORIO CONTABLE II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "INVESTIGATIVO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "CONSULTORIO CONTABLE III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "INVESTIGATIVO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "CONSULTORIO CONTABLE IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "INVESTIGATIVO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "TEORIA DEL ESTADO Y LA CONSTITUCION",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "INTRODUCCION AL DERECHO",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "SOCIEDADES",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "RELACIONES LABORALES",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "FUNDAMENTOS DE ECONOMIA",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "MACROECONOMIA",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "TEORIA Y POLITICA MONETARIA",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "NEGOCIOS INTERNACIONALES",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "HISTORIA ECONOMICA DE COLOMBIA",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "FUNDAMENTOS DE ADMINISTRACION",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "PROCESO ADMINISTRATIVO",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "PRECALCULO",
@@ -230,358 +428,106 @@
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CALCULO I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "ESPECÍFICO",
+  "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CALCULO II",
+  "nombre": "ALGEBRA Y PROGRAMACION LINEAL",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "ESPECÍFICO",
+  "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "ESTADISTICA I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "ESPECÍFICO",
+  "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ESTADISTICA II",
+  "nombre": "MATEMATICA FINANCIERA I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "MATEMATICA FINANCIERA II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ENFASIS I:SOCIOLOGIA EMPRESARIAL",
+  "nombre": "GERENCIA FINANCIERA INTERNACIONAL",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "ESPECÍFICO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "FORMULACION Y EVALUACION DE PROYECTOS",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ENFASIS I:COMPETITIVIDAD EMPRESARIAL",
+  "nombre": "ADMINISTRACION DEL RECURSOS HUMANO",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "ESPECÍFICO",
+  "profundizacion": "ESPECÍFICO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "ENFASIS I:LIDERAZGO Y COMPETENCIAS DIRECTIVAS",
+  "nombre": "EPISTEMOLOGIA I ",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "ESPECÍFICO",
+  "profundizacion": "INVESTIGATIVO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS I:TEORIAS GERENCIALES MODERNAS",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS II: EVALUACIÓN Y GESTIÓN DE EMPRESAS SOLIDARIAS ",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS II:MARKETING SOCIAL",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS II: GERENCIA SOCIAL",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS II:DESARRILLO ESTRATÉGICO DE EMPRESAS SOLIDARIAS",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS II:LEGISLACIÓN SOLIDARIA",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS II: DESARROLLO SOLIDARIO EN COLOMBIA",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS III:POLITICA Y COMERCIO INTERNACIONAL",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS III:TRATADOS INTERNACIONALES Y DIPLOMACIA",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS III: DERECHO ECONOMICO INTERNACIONAL",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS III: NEGOCIOS INTERNACIONALES",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS III: FINANZAS INTERNACIONALES",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ENFASIS III: LOGISTICA Y NEGOCIOS INTERNACIONALES",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "ESPECÍFICO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA DISCIPLINAR I",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA DISCIPLINAR II",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA DISCIPLINAR III",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA DISCIPLINAR IV",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA ND I",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA ND II",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA ND III",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA ND IV",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA INTEGRAL I",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA INTEGRAL II",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA INTEGRAL IV",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "ELECTIVA INTEGRAL III",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "COMPLEMENTARIO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "COMPETENCIAS COMUNICATIVAS I",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "INVESTIGATIVO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "LOGICA MATEMATICA",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "INVESTIGATIVO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "COMPETENCIAS COMUNICATIVAS II",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "INVESTIGATIVO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "LOGICA FILOSÓFICA",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "INVESTIGATIVO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
-  }
-},{
-  "nombre": "EPISTEMOLOGIA I",
-  "fechaCreacion": {
-    "$date": "2021-11-07T00:13:49.877Z"
-  },
-  "profundizacion": "INVESTIGATIVO",
-  "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "EPISTEMOLOGIA II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "INVESTIGATIVO",
+  "profundizacion": "INVESTIGATIVO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "INVESTIGACIÓN I",
+  "nombre": "INVESTIGACION",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "INVESTIGATIVO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "INVESTIGACIÓN Y ESTADISTICA APLICADA",
@@ -590,7 +536,7 @@
   },
   "profundizacion": "INVESTIGATIVO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "SEMINARIO DE GRADO",
@@ -599,43 +545,115 @@
   },
   "profundizacion": "INVESTIGATIVO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CONSULTORIO I",
+  "nombre": "COMPETENCIAS COMUNICATIVAS I",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "INVESTIGATIVO",
+  "profundizacion": "COMPLEMENTARIO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CONSULTORIO II",
+  "nombre": "LOGICA MATEMATICA",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "INVESTIGATIVO",
+  "profundizacion": "COMPLEMENTARIO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CONSULTORIO III",
+  "nombre": "COMPETENCIAS COMUNICATIVAS II",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "INVESTIGATIVO",
+  "profundizacion": "COMPLEMENTARIO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CONSULTORIO IV",
+  "nombre": "LOGICA FILOSOFICA",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
-  "profundizacion": "INVESTIGATIVO",
+  "profundizacion": "COMPLEMENTARIO",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA NO DISCIPLINAR I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA NO DISCIPLINAR II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA NO DISCIPLINAR III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA NO DISCIPLINAR IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA LIBRE E INTEGRAL I",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA LIBRE E INTEGRAL II",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA LIBRE E INTEGRAL III",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
+  }
+},{
+  "nombre": "ELECTIVA LIBRE E INTEGRAL IV",
+  "fechaCreacion": {
+    "$date": "2021-11-07T00:13:49.877Z"
+  },
+  "profundizacion": "COMPLEMENTARIO",
+  "programaAcademicoId": {
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE I",
@@ -644,7 +662,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE II",
@@ -653,7 +671,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE III",
@@ -662,7 +680,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE IV",
@@ -671,7 +689,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE V",
@@ -680,7 +698,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE VI",
@@ -689,7 +707,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE VII",
@@ -698,16 +716,16 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
-  "nombre": "CCATEDRA EDUFREE VIII",
+  "nombre": "CATEDRA EDUFREE VIII",
   "fechaCreacion": {
     "$date": "2021-11-07T00:13:49.877Z"
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CATEDRA EDUFREE IX",
@@ -716,7 +734,7 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 },{
   "nombre": "CONSTITUCIÓN POLÍTICA Y DEMOCRACIA",
@@ -725,6 +743,6 @@
   },
   "profundizacion": "INSTITUCIONAL",
   "programaAcademicoId": {
-    "$oid": "661871775a43fad2f70b638ff"
+    "$oid": "6618717f5a43fad2f70b63901"
   }
 }]
