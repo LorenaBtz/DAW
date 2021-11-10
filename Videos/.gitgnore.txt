@@ -1,2 +1,3 @@
 # Ignorar Carpetas
-SMSyEMAIL/**/*.py
+SMSyEMAIL/
+
