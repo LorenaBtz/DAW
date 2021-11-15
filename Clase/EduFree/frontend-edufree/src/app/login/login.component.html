@@ -1,4 +1,37 @@
-<div class="cls-login">
-   <p>login works!</p>
-   <p>login works!</p>
+<div class="container m-4 cls-login position-absolute top-50 start-50 translate-middle">
+
+   <div class="row">
+
+      <div class="col">
+         <H1>{{ titulo }}</H1>
+      </div>
+
+      <div class="row">
+         <div class="col cls-container-form">
+            <form>
+               <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" required placeholder="Usuario"
+                     [(ngModel)]="loginUser.usuario" [ngModelOptions]="{standalone: true}" />
+                  <div id="emailHelp" class="form-text">
+                     We'll never share your username with anyone else.
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Contraseña"
+                     [(ngModel)]="loginUser.contrasenia" [ngModelOptions]="{standalone: true}" />
+               </div>
+               <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+               </div>
+               <button type="submit" class="btn btn-primary" (click)="mostrarInput()">
+                  Submit
+               </button>
+            </form>
+         </div>
+      </div>
+
+   </div>
 </div>

@@ -1,6 +1,14 @@
 .cls-login{
-   p{
-      font-weight: bold;
-      color: #da4d4d;
+
+   h1{
+      text-align: center;
    }
+
+   .cls-container-form{
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
 }
