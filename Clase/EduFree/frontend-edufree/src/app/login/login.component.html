@@ -1,37 +1,39 @@
-<div class="container m-4 cls-login position-absolute top-50 start-50 translate-middle">
+<div class="container p-5 cls-login row align-items-start">
 
-   <div class="row">
+    <img src="/assets/images/bg-login.jpg" alt="" class="cls-image-bg">
 
-      <div class="col">
-         <H1>{{ titulo }}</H1>
-      </div>
 
-      <div class="row">
-         <div class="col cls-container-form">
-            <form>
-               <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Usuario</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" required placeholder="Usuario"
-                     [(ngModel)]="loginUser.usuario" [ngModelOptions]="{standalone: true}" />
-                  <div id="emailHelp" class="form-text">
-                     We'll never share your username with anyone else.
-                  </div>
-               </div>
-               <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Contraseña"
-                     [(ngModel)]="loginUser.contrasenia" [ngModelOptions]="{standalone: true}" />
-               </div>
-               <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-               </div>
-               <button type="submit" class="btn btn-primary" (click)="mostrarInput()">
-                  Submit
-               </button>
+    <div class="row cls-container-form p-3">
+        <div class="col">
+
+            <h1>{{titulo}}</h1>
+
+            <form [formGroup]="formLogin">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        formControlName="codigo">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1"
+                        formControlName="contrasenia">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Aceptar términos y condiciones</label>
+                </div>
+                <button [disabled]="!formLogin.valid" type="submit" class="btn btn-primary"
+                    (click)="mostrarInfo()">Iniciar</button>
+
+                <img src="/assets/images/imagen.png" alt="">
             </form>
-         </div>
-      </div>
+        </div>
 
-   </div>
+    </div>
+
+
+
+
 </div>
