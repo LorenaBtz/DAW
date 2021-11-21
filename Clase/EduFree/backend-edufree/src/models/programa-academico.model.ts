@@ -14,31 +14,37 @@ export class ProgramaAcademico extends Entity {
     type: 'string',
     required: true,
   })
-  nombre: string;
+  nombrePrograma: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  codigoPrograma: string;
+
+  @property({
+    type: 'number',
+    required: true,
+  })
+  cantidadSemestres: number;
+
+  @property({
+    type: 'number',
+    required: true,
+  })
+  cantidadCreditos: number;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  nivelAcademico: string;
 
   @property({
     type: 'string',
     required: true,
   })
   modalidad: string;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
-  duracion: number;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
-  creditos: number;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  tipo: string;
 
   @property({
     type: 'date',

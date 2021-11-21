@@ -1,6 +1,5 @@
-import {Entity, model, property, hasMany} from '@loopback/repository';
-import {Usuario} from './usuario.model';
-import {EstudiantePorGrupo} from './estudiante-por-grupo.model';
+import {Entity, model, property, belongsTo} from '@loopback/repository';
+import {Asignatura} from './asignatura.model';
 
 @model()
 export class Grupo extends Entity {
@@ -15,28 +14,22 @@ export class Grupo extends Entity {
     type: 'string',
     required: true,
   })
-  nombre: string;
+  codigoGrupo: string;
 
   @property({
-    type: 'date',
+    type: 'number',
     required: true,
   })
-  fecha_creacion: string;
+  capacidadEstudiantes: number;
 
   @property({
-    type: 'date',
+    type: 'string',
     required: true,
   })
-  fecha_inicio: string;
+  idDocente: string;
 
-  @property({
-    type: 'date',
-    required: true,
-  })
-  fecha_fin: string;
-
-  @hasMany(() => Usuario, {through: {model: () => EstudiantePorGrupo}})
-  usuariosgrupo: Usuario[];
+  @belongsTo(() => Asignatura)
+  asignaturaId: string;
 
   constructor(data?: Partial<Grupo>) {
     super(data);

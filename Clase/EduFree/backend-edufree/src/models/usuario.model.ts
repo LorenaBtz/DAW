@@ -1,4 +1,7 @@
-import {Entity, model, property} from '@loopback/repository';
+import {belongsTo, Entity, hasMany, model, property} from '@loopback/repository';
+import {Grupo} from './grupo.model';
+import {Perfil} from './perfil.model';
+import {UsuarioPorGrupo} from './usuario-por-grupo.model';
 
 @model()
 export class Usuario extends Entity {
@@ -13,36 +16,37 @@ export class Usuario extends Entity {
     type: 'string',
     required: true,
   })
-  nombre: string;
+  nombres: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  apllido: string;
+  apellidos: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  correo_institucional: string;
+  tipoIdentificacion: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  lefoo: string;
+  noIdentificacion: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  no_identificacion: string;
+  correo: string;
 
   @property({
     type: 'string',
+    required: true,
   })
-  clave?: string;
+  telefono: string;
 
   @property({
     type: 'string',
@@ -50,6 +54,29 @@ export class Usuario extends Entity {
   })
   rol: string;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  usuario: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  contrasenia: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  idPrograma: string;
+
+  @belongsTo(() => Perfil)
+  perfilId: string;
+
+  @hasMany(() => Grupo, {through: {model: () => UsuarioPorGrupo}})
+  grupos: Grupo[];
 
   constructor(data?: Partial<Usuario>) {
     super(data);

@@ -17,134 +17,134 @@ import {
   requestBody,
   response,
 } from '@loopback/rest';
-import {EstudiantePorGrupo} from '../models';
-import {EstudiantePorGrupoRepository} from '../repositories';
+import {UsuarioPorGrupo} from '../models';
+import {UsuarioPorGrupoRepository} from '../repositories';
 
 export class UsuarioPorGrupoController {
   constructor(
-    @repository(EstudiantePorGrupoRepository)
-    public estudiantePorGrupoRepository : EstudiantePorGrupoRepository,
+    @repository(UsuarioPorGrupoRepository)
+    public usuarioPorGrupoRepository : UsuarioPorGrupoRepository,
   ) {}
 
-  @post('/estudiante-por-grupos')
+  @post('/usuarios-por-grupo')
   @response(200, {
-    description: 'EstudiantePorGrupo model instance',
-    content: {'application/json': {schema: getModelSchemaRef(EstudiantePorGrupo)}},
+    description: 'UsuarioPorGrupo model instance',
+    content: {'application/json': {schema: getModelSchemaRef(UsuarioPorGrupo)}},
   })
   async create(
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(EstudiantePorGrupo, {
-            title: 'NewEstudiantePorGrupo',
+          schema: getModelSchemaRef(UsuarioPorGrupo, {
+            title: 'NewUsuarioPorGrupo',
             exclude: ['id'],
           }),
         },
       },
     })
-    estudiantePorGrupo: Omit<EstudiantePorGrupo, 'id'>,
-  ): Promise<EstudiantePorGrupo> {
-    return this.estudiantePorGrupoRepository.create(estudiantePorGrupo);
+    usuarioPorGrupo: Omit<UsuarioPorGrupo, 'id'>,
+  ): Promise<UsuarioPorGrupo> {
+    return this.usuarioPorGrupoRepository.create(usuarioPorGrupo);
   }
 
-  @get('/estudiante-por-grupos/count')
+  @get('/usuarios-por-grupo/count')
   @response(200, {
-    description: 'EstudiantePorGrupo model count',
+    description: 'UsuarioPorGrupo model count',
     content: {'application/json': {schema: CountSchema}},
   })
   async count(
-    @param.where(EstudiantePorGrupo) where?: Where<EstudiantePorGrupo>,
+    @param.where(UsuarioPorGrupo) where?: Where<UsuarioPorGrupo>,
   ): Promise<Count> {
-    return this.estudiantePorGrupoRepository.count(where);
+    return this.usuarioPorGrupoRepository.count(where);
   }
 
-  @get('/estudiante-por-grupos')
+  @get('/usuarios-por-grupo')
   @response(200, {
-    description: 'Array of EstudiantePorGrupo model instances',
+    description: 'Array of UsuarioPorGrupo model instances',
     content: {
       'application/json': {
         schema: {
           type: 'array',
-          items: getModelSchemaRef(EstudiantePorGrupo, {includeRelations: true}),
+          items: getModelSchemaRef(UsuarioPorGrupo, {includeRelations: true}),
         },
       },
     },
   })
   async find(
-    @param.filter(EstudiantePorGrupo) filter?: Filter<EstudiantePorGrupo>,
-  ): Promise<EstudiantePorGrupo[]> {
-    return this.estudiantePorGrupoRepository.find(filter);
+    @param.filter(UsuarioPorGrupo) filter?: Filter<UsuarioPorGrupo>,
+  ): Promise<UsuarioPorGrupo[]> {
+    return this.usuarioPorGrupoRepository.find(filter);
   }
 
-  @patch('/estudiante-por-grupos')
+  @patch('/usuarios-por-grupo')
   @response(200, {
-    description: 'EstudiantePorGrupo PATCH success count',
+    description: 'UsuarioPorGrupo PATCH success count',
     content: {'application/json': {schema: CountSchema}},
   })
   async updateAll(
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(EstudiantePorGrupo, {partial: true}),
+          schema: getModelSchemaRef(UsuarioPorGrupo, {partial: true}),
         },
       },
     })
-    estudiantePorGrupo: EstudiantePorGrupo,
-    @param.where(EstudiantePorGrupo) where?: Where<EstudiantePorGrupo>,
+    usuarioPorGrupo: UsuarioPorGrupo,
+    @param.where(UsuarioPorGrupo) where?: Where<UsuarioPorGrupo>,
   ): Promise<Count> {
-    return this.estudiantePorGrupoRepository.updateAll(estudiantePorGrupo, where);
+    return this.usuarioPorGrupoRepository.updateAll(usuarioPorGrupo, where);
   }
 
-  @get('/estudiante-por-grupos/{id}')
+  @get('/usuarios-por-grupo/{id}')
   @response(200, {
-    description: 'EstudiantePorGrupo model instance',
+    description: 'UsuarioPorGrupo model instance',
     content: {
       'application/json': {
-        schema: getModelSchemaRef(EstudiantePorGrupo, {includeRelations: true}),
+        schema: getModelSchemaRef(UsuarioPorGrupo, {includeRelations: true}),
       },
     },
   })
   async findById(
     @param.path.string('id') id: string,
-    @param.filter(EstudiantePorGrupo, {exclude: 'where'}) filter?: FilterExcludingWhere<EstudiantePorGrupo>
-  ): Promise<EstudiantePorGrupo> {
-    return this.estudiantePorGrupoRepository.findById(id, filter);
+    @param.filter(UsuarioPorGrupo, {exclude: 'where'}) filter?: FilterExcludingWhere<UsuarioPorGrupo>
+  ): Promise<UsuarioPorGrupo> {
+    return this.usuarioPorGrupoRepository.findById(id, filter);
   }
 
-  @patch('/estudiante-por-grupos/{id}')
+  @patch('/usuarios-por-grupo/{id}')
   @response(204, {
-    description: 'EstudiantePorGrupo PATCH success',
+    description: 'UsuarioPorGrupo PATCH success',
   })
   async updateById(
     @param.path.string('id') id: string,
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(EstudiantePorGrupo, {partial: true}),
+          schema: getModelSchemaRef(UsuarioPorGrupo, {partial: true}),
         },
       },
     })
-    estudiantePorGrupo: EstudiantePorGrupo,
+    usuarioPorGrupo: UsuarioPorGrupo,
   ): Promise<void> {
-    await this.estudiantePorGrupoRepository.updateById(id, estudiantePorGrupo);
+    await this.usuarioPorGrupoRepository.updateById(id, usuarioPorGrupo);
   }
 
-  @put('/estudiante-por-grupos/{id}')
+  @put('/usuarios-por-grupo/{id}')
   @response(204, {
-    description: 'EstudiantePorGrupo PUT success',
+    description: 'UsuarioPorGrupo PUT success',
   })
   async replaceById(
     @param.path.string('id') id: string,
-    @requestBody() estudiantePorGrupo: EstudiantePorGrupo,
+    @requestBody() usuarioPorGrupo: UsuarioPorGrupo,
   ): Promise<void> {
-    await this.estudiantePorGrupoRepository.replaceById(id, estudiantePorGrupo);
+    await this.usuarioPorGrupoRepository.replaceById(id, usuarioPorGrupo);
   }
 
-  @del('/estudiante-por-grupos/{id}')
+  @del('/usuarios-por-grupo/{id}')
   @response(204, {
-    description: 'EstudiantePorGrupo DELETE success',
+    description: 'UsuarioPorGrupo DELETE success',
   })
   async deleteById(@param.path.string('id') id: string): Promise<void> {
-    await this.estudiantePorGrupoRepository.deleteById(id);
+    await this.usuarioPorGrupoRepository.deleteById(id);
   }
 }

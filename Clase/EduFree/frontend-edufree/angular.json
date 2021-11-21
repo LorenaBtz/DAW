@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "frontend-edufree-g26": {
+    "frontend-edufree": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/frontend-edufree-g26",
+            "outputPath": "dist/frontend-edufree",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -34,7 +34,11 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -73,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "frontend-edufree-g26:build:production"
+              "browserTarget": "frontend-edufree:build:production"
             },
             "development": {
-              "browserTarget": "frontend-edufree-g26:build:development"
+              "browserTarget": "frontend-edufree:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "frontend-edufree-g26:build"
+            "browserTarget": "frontend-edufree:build"
           }
         },
         "test": {
@@ -100,7 +104,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -109,5 +112,5 @@
       }
     }
   },
-  "defaultProject": "frontend-edufree-g26"
+  "defaultProject": "frontend-edufree"
 }

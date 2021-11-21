@@ -1,7 +1,7 @@
 {
   "name": "backend-edufree",
   "version": "0.0.1",
-  "description": "Proyecto EduFree, donde se realiza el modulo de calificacion",
+  "description": "EduFree Eq2",
   "keywords": [
     "loopback-application",
     "loopback"

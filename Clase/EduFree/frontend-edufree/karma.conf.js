@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/frontend-edufree-g26'),
+      dir: require('path').join(__dirname, './coverage/frontend-edufree'),
       subdir: '.',
       reporters: [
         { type: 'html' },

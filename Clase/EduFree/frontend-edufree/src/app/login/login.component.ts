@@ -21,12 +21,6 @@ export class LoginComponent implements OnInit {
 
   constructor(private fb: FormBuilder) {
 
-    // this.formLogin = new FormGroup({
-    //   codigo: new FormControl(''),
-    //   contrasenia: new FormControl(''),
-    // });
-
-
     this.formLogin = this.fb.group(
       {
         codigo: ['', Validators.required],

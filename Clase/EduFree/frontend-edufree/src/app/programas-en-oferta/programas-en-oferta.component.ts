@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BackendService } from '../backend.service';
+import { BackendService } from 'src/services/backend.service';
 
 interface Programa {
   nombre: string,
@@ -16,7 +16,7 @@ export class ProgramasEnOfertaComponent implements OnInit {
   listaProgramas: Programa[] = [];
 
   constructor(private servicioBackend: BackendService) {
-    this.servicioBackend.getRequest('programa-academicos').subscribe(
+    this.servicioBackend.getRequest('programas-academicos').subscribe(
       {
         next: (data) => {
           console.log('bien');
@@ -29,15 +29,7 @@ export class ProgramasEnOfertaComponent implements OnInit {
           console.log('completo');
         }
       }
-
     );
   }
-
-
-
   ngOnInit(): void { }
-
-
-
-
 }
