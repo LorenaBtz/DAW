@@ -1,38 +1,87 @@
-<div class="container p-5 cls-login row align-items-start">
+<router-outlet></router-outlet>
 
-   <img src="/assets/images/bg-login.jpg" alt="" class="cls-image-bg">
+<div class="container-fluid p-5 cls-login row align-items-start">
+   <!-- Navigation-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+      <div class="container px-1">
+         <a class="navbar-brand" href="#page-top">
+            <img src="../assets/images/logo.png" alt="" class="cls-logo" />
+            Universitaria EduFree
+         </a>
+      </div>
+   </nav>
 
+   <section class="vh-100 cls-bg-login">
+      <div class="container py-5 h-100">
+         <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+               <div class="card" style="border-radius: 1rem">
+                  <div class="row g-0">
+                     <div class="col-md-6 col-lg-5 d-none d-md-block">
+                        <img src="/assets/images/login.jpg" alt="login form" class="img-fluid"
+                           style="border-radius: 1rem 0 0 1rem; height: 721; width: 480" />
+                     </div>
+                     <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+                           <form [formGroup]="formLogin">
+                              <h2 class="fw-normal display-2 mb-3 pb-3" style="letter-spacing: 1px">
+                                 Inicia Sesión
+                              </h2>
 
-   <div class="row cls-container-form p-3">
-      <div class="col">
+                              <div class="form-outline mb-4">
+                                 <input type="email" id="email" class="form-control form-control-lg"
+                                    formControlName="codigo" placeholder="juan.botero@edufree.edu.co" />
+                                 <label class="form-label" for="email">Correo Electrónico</label>
+                              </div>
 
-         <h1>{{titulo}}</h1>
+                              <div class="form-outline mb-4">
+                                 <input type="password" id="contrasenia" class="form-control form-control-lg"
+                                    formControlName="contrasenia" placeholder="**********" />
+                                 <label class="form-label" for="contrasenia">Contraseña</label>
+                              </div>
 
-         <form [formGroup]="formLogin">
-            <div class="mb-3">
-               <label for="exampleInputEmail1" class="form-label">Correo</label>
-               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  formControlName="codigo">
-               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                              <div class="pt-1 mb-4">
+                                 <button class="btn btn-dark btn-lg btn-block" type="button"
+                                    [disabled]="!formLogin.valid" (click)="mostrarInfo()">
+                                    Login
+                                 </button>
+                              </div>
+
+                              <a class="small text-muted" href="#!">¿Olvidó su Contraseña?</a>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="mb-3">
-               <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-               <input type="password" class="form-control" id="exampleInputPassword1" formControlName="contrasenia">
-            </div>
-            <div class="mb-3 form-check">
-               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-               <label class="form-check-label" for="exampleCheck1">Aceptar términos y condiciones</label>
-            </div>
-            <button [disabled]="!formLogin.valid" type="submit" class="btn btn-primary"
-               (click)="mostrarInfo()">Iniciar</button>
+         </div>
+      </div>
+   </section>
 
-            <img src="/assets/images/imagen.png" alt="">
-         </form>
+   <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+         <!-- Section: Social media -->
+         <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                  class="bi bi-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-linkedin"></i></a>
+         </section>
       </div>
 
-   </div>
-
-
-
-
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+         © 2021 Copyright:
+         <a class="text-white" href="https://misiontic.ucaldas.edu.co/">misiontic.ucaldas.edu</a>
+      </div>
+   </footer>
 </div>

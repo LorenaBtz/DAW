@@ -2,21 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { BackendService } from 'src/services/backend.service';
 
 interface Programa {
-  nombrePrograma: string,
-  nivelAcademico: string,
-  modalidad: string,
-  cantidadSemestres: string,
-  cantidadCreditos: number,
-  costo: string,
-  imagen: string
+  nombrePrograma: string
 }
 
 @Component({
-  selector: 'app-programas-en-oferta',
-  templateUrl: './programas-en-oferta.component.html',
-  styleUrls: ['./programas-en-oferta.component.scss']
+  selector: 'app-inscripciones',
+  templateUrl: './inscripciones.component.html',
+  styleUrls: ['./inscripciones.component.scss']
 })
-export class ProgramasEnOfertaComponent implements OnInit {
+export class InscripcionesComponent implements OnInit {
 
   listaProgramas: Programa[] = [];
 

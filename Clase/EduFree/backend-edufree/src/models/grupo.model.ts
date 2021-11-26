@@ -26,7 +26,13 @@ export class Grupo extends Entity {
     type: 'string',
     required: true,
   })
-  idDocente: string;
+  docenteId: string;
+
+  @property({
+    type: 'date',
+    required: true,
+  })
+  fechaCreacion: string;
 
   @belongsTo(() => Asignatura)
   asignaturaId: string;

@@ -1,12 +1,21 @@
-.cls-navbar {
-   h6 {
-      font-size: 20px;
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.cls-logo{
+   width: 30px;
+   height: 30px;
+}
+
+.cls-header{
+   background-color: #F29F05;
+
+   button:hover{
+      background-color: #F25244;
+      border-color: #F25244;
       color: #fff;
+
    }
 }
 
-.cls-footer {
-   position: fixed;
-   bottom: 0;
-   width: 100%;
+.cls-footer{
+   background-color: #1B1C29;
 }

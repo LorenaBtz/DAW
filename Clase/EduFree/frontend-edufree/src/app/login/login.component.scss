@@ -1,3 +1,5 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 .cls-login {
    max-width: 100%;
    position: relative;
@@ -6,6 +8,10 @@
 
    h1 {
       text-align: start;
+   }
+
+   .cls-bg-login{
+      background-color: #162440
    }
 
    .cls-container-form {
@@ -31,4 +37,25 @@
    i{
       position: static;
    }
+
+   .cls-header{
+      background-color: #F29F05;
+
+      button:hover{
+         background-color: #F25244;
+         border-color: #F25244;
+         color: #fff;
+
+      }
+   }
+
+   .cls-footer{
+      background-color: #1B1C29;
+   }
+
 }
+
+   .cls-logo{
+      width: 50px;
+      height: 50px;
+   }

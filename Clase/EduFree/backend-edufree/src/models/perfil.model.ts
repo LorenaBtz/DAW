@@ -29,6 +29,12 @@ export class Perfil extends Entity {
   })
   modulos: string[];
 
+  @property({
+    type: 'date',
+    required: true,
+  })
+  fechaCreacion: string;
+
   @hasMany(() => Usuario)
   usuarios: Usuario[];
 

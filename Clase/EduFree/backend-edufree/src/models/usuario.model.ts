@@ -16,13 +16,13 @@ export class Usuario extends Entity {
     type: 'string',
     required: true,
   })
-  nombres: string;
+  nombresUsuario: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  apellidos: string;
+  apellidosUsuario: string;
 
   @property({
     type: 'string',
@@ -70,7 +70,13 @@ export class Usuario extends Entity {
     type: 'string',
     required: true,
   })
-  idPrograma: string;
+  programaId: string;
+
+  @property({
+  type: 'date',
+  required: true,
+  })
+  fechaCreacion: string;
 
   @belongsTo(() => Perfil)
   perfilId: string;

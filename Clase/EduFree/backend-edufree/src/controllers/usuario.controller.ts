@@ -1,3 +1,4 @@
+import { service } from '@loopback/core';
 import {
   Count,
   CountSchema,
@@ -17,14 +18,35 @@ import {
   requestBody,
   response,
 } from '@loopback/rest';
-import {Usuario} from '../models';
+import {Credenciales, Usuario} from '../models';
 import {UsuarioRepository} from '../repositories';
-
+import { SeguridadService } from '../services/seguridad.service';
 export class UsuarioController {
   constructor(
     @repository(UsuarioRepository)
     public usuarioRepository : UsuarioRepository,
+    @service('SeguridadService')
+    public seguridadService: SeguridadService
   ) {}
+
+  @post('/usuarios/login')
+  @response(200,{
+      description: 'Inicio de Sesion ejecutado Correctamente',
+  })
+  async login(
+    @requestBody() credenciales: Credenciales
+  ) {
+    try {
+      const usuarioEncontrado = await this.seguridadService.ValidarUsuario(credenciales);
+      if (usuarioEncontrado) {
+        // Generar Token
+      } else {
+        // Generar Token
+      }
+    } catch (error) {
+      // Generar Token
+    }
+  }
 
   @post('/usuarios')
   @response(200, {

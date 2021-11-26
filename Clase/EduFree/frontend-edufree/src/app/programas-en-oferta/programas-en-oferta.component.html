@@ -1,11 +1,24 @@
-<div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+<router-outlet></router-outlet>
 
-   <div *ngFor="let item of listaProgramas" class="card m-3" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-         <h5 class="card-title">{{item.nombre}}</h5>
-         <p class="card-text">{{item.modalidad}}</p>
+<div class="container-fluid m-0 p-0">
+<section class="m-0 p-0 cls-programas">
+   <div class="d-flex flex-wrap flex-row bd-highlight mb-3">
+      <div *ngFor="let i of listaProgramas" class="card m-3" style="width: 18rem;">
+         <img src="{{i.imagen}}" class="card-img-top" alt="...">
+         <div class="card-body">
+            <h5 class="card-title">{{i.nombrePrograma}}</h5>
+            <p class="card-text">{{i.nivelAcademico}}</p>
+         </div>
+         <ul class="list-group list-group-flush">
+            <li class="list-group-item">Duracion: {{i.cantidadSemestres}} semestres</li>
+            <li class="list-group-item">Modaliadad: {{i.modalidad}}</li>
+            <li class="list-group-item">Creditos: {{i.cantidadCreditos}}</li>
+            <li class="list-group-item">Costo: {{i.costo}} COP</li>
+         </ul>
+         <div class="card-body">
+            <a routerLink="/inscripciones" class="btn btn-primary">Inscribirse</a>
+         </div>
       </div>
    </div>
-
+</section>
 </div>
