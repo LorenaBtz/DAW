@@ -1,36 +1,36 @@
-<div class="container-fluid m-0 p-0">
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
-    <div class="container px-1">
-      <a class="navbar-brand" href="#page-top">
-        <img src="../assets/images/logo.png" alt="" class="cls-logo">
-        Universitaria EduFree
-      </a>
+<router-outlet></router-outlet>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-      aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" routerLink="/programas-en-oferta" routerLinkActive="active">Programas Ofertados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" routerLink="/login" routerLinkActive="active">Login</a>
-          </li>
-        </ul>
-      </div>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav">
+  <div class="container px-1">
+    <a class="navbar-brand" href="#page-top">
+      <img src="../assets/images/logo.png" alt="" class="cls-logo">
+      Universitaria EduFree
+    </a>
 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/programas-en-oferta" routerLinkActive="active">Programas
+            Ofertados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/login" routerLinkActive="active">Login</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <router-outlet></router-outlet>
-
+<main class="container-fixed">
   <!-- Header-->
-  <header class="cls-header text-white p-4">
+  <header class="cls-header text-white p-5 ">
     <div class="container px-4 text-center">
       <h1 class="fw-bolder">Bienvenidos a la Fundacion Universitaria Edufree</h1>
       <p class="lead">Puerta a la Excelencia de manera flexible y accequible</p>
@@ -71,55 +71,72 @@
       </div>
     </div>
   </section>
-  <!-- Footer-->
-  <footer class="bg-dark py-5 w-100 py-4 flex-shrink-0">
-    <div class="container py-4">
-      <div class="row gy-4 gx-5">
-        <div class="col-lg-4 col-md-6">
-          <h5 class="h1 text-white">EduFree.</h5>
-          <p class="small text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt.
-          </p>
-          <p class="small text-muted mb-0">&copy;> Copyrights. All rights reserved.
-            <a class="text-primary" href="https://misiontic.ucaldas.edu.co/">
-              MisionTIC.UCaldas.edu.co
-            </a>
-          </p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <h5 class="text-white mb-3">Accesos Directos</h5>
-          <ul class="list-unstyled text-muted">
-            <li><a href="/programas-en-oferta">Programas Ofertados</a></li>
-            <li><a href="/inscripciones">Inscripciones</a></li>
-            <li><a href="/not-found">Investigaciones</a></li>
-            <li><a href="/not-found">Comunidad EduFree</a></li>
+</main>
+  <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <div class="container p-4">
+    <section class="mb-4">
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-facebook"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-twitter"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-instagram"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-linkedin"></i></a>
+    </section>
+
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <section class="">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a routerLink="login" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a routerLink="" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a routerLink="" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a routerLink="" class="text-white">Link 4</a>
+            </li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <h5 class="text-white mb-3">Redes Sociales</h5>
-          <ul class="list-unstyled text-muted">
-            <li><i class="bi bi-facebook"></i> @UEduFree</li>
-            <li><i class="bi bi-twitter"></i> @UEduFree</li>
-            <li><i class="bi bi-instagram"></i> @UEduFree</li>
-            <li><i class="bi bi-linkedin"></i> @UEduFree</li>
+
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a routerLink="" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a routerLink="" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a routerLink="" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a routerLink="" class="text-white">Link 4</a>
+            </li>
           </ul>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h5 class="text-white mb-3">Newsletter</h5>
-          <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt.</p>
-          <form action="#">
-            <div class="input-group mb-3">
-              <input class="form-control" type="text" placeholder="Recipient's username"
-                aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-primary" id="button-addon2" type="button">
-                <i class="bi bi-send"></i>
-              </button>
-            </div>
-          </form>
         </div>
       </div>
-    </div>
-  </footer>
-</div>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://misiontic.ucaldas.edu.co/">misiontic.ucaldas.ed</a>
+  </div>
+</footer>

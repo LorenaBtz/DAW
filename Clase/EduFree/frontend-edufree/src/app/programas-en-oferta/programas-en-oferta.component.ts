@@ -8,7 +8,8 @@ interface Programa {
   cantidadSemestres: string,
   cantidadCreditos: number,
   costo: string,
-  imagen: string
+  imagen: string,
+  descripcion: string
 }
 
 @Component({
