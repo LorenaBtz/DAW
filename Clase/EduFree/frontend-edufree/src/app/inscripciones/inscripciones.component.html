@@ -1,57 +1,65 @@
 <router-outlet></router-outlet>
 
-<div class="container-fluid m-0 p0">
-   <!-- Navigation-->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
-      <div class="container px-1">
-         <a class="navbar-brand" href="#page-top">
-            <img src="../assets/images/logo.png" alt="" class="cls-logo">
-            Universitaria EduFree
-         </a>
 
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         </button>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+   <div class="container px-1">
+      <a class="navbar-brand" href="#page-top">
+         <img src="../assets/images/logo.png" alt="" class="cls-logo">
+         Universitaria EduFree
+      </a>
 
-         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-               <li class="nav-item">
-                  <a class="nav-link active" routerLink="/programas-en-oferta" routerLinkActive="active">Programas
-                     Ofertados</a>
-               </li>
-            </ul>
-         </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+               <a class="nav-link active" routerLink="/programas-en-oferta" routerLinkActive="active">Programas
+                  Ofertados</a>
+            </li>
+         </ul>
       </div>
-   </nav>
 
-   <!-- Page Content -->
+   </div>
+</nav>
+
+<!-- Page Content -->
+<main class="container-fixed">
    <section id="about" class="m-0 p-5 register">
       <div class="row">
          <div class="col-md-3 register-left">
             <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
-            <h3>Welcome</h3>
-            <p>You are 30 seconds away from earning your own money!</p>
+            <h3>Emprende este Viaje</h3>
+            <p>Queremos acercar a los mejores estudiantes a nuestra Universidad y sus programas a través de
+            experiencias, atención e información de alta calidad.</p>
             <input class="m-0" type="button" name="" value="Login" routerLink="/login" /><br />
          </div>
          <div class="col-md-9 register-right">
             <div class="tab-content" id="myTabContent">
                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                  <h3 class="register-heading">fjaksdfhkjasdhfjkasdhf</h3>
+                  <h3 class="register-heading">Registrate</h3>
                   <div class="row register-form">
                      <div class="col-md-6">
                         <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Nombres *" value="" />
+                           <input type="text" class="form-control" placeholder="Nombres" value="" />
                         </div>
                         <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Apellidos *" value="" />
+                           <input type="text" class="form-control" placeholder="Apellidos" value="" />
                         </div>
                         <div class="form-group">
-                           <input type="password" class="form-control" placeholder="Password *" value="" />
+                           <select class="form-control" placeholder="Tipo Identificacion">
+                              <option class="hidden" selected disabled>Tipo Identificacion</option>
+                              <option *ngFor="let i of listaProgramas">{{i.nombrePrograma}}</option>
+                           </select>
                         </div>
                         <div class="form-group">
-                           <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                           <input type="password" class="form-control" placeholder="Usuario" value="" />
+                        </div>
+                        <div class="form-group">
+                           <input type="password" class="form-control" placeholder="Contraseña" value="" />
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -63,16 +71,19 @@
                               placeholder="Teléfono" value="" />
                         </div>
                         <div class="form-group">
+                           <input type="" class="form-control" placeholder="Número de Identificacion" value="" />
+                        </div>
+                        <div class="form-group">
                            <select class="form-control" placeholder="Por favor selecciona el Programa Acádemico">
-                              <option class="hidden" selected disabled>Por favor selecciona el Programa Acádemico
+                              <option class="hidden" selected disabled>Selecciona el Programa Acádemico
                               </option>
                               <option *ngFor="let i of listaProgramas">{{i.nombrePrograma}}</option>
                            </select>
                         </div>
                         <div class="form-group">
-                           <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
+                           <input type="password" class="form-control" placeholder="Confirmar contraseña" value="" />
                         </div>
-                        <input type="submit" class="btnRegister" value="Register" />
+                        <input type="submit" class="btnRegister" value="Enviar Datos" />
                      </div>
                   </div>
                </div>
@@ -80,74 +91,72 @@
          </div>
       </div>
    </section>
+</main>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+   <div class="container p-4">
+      <section class="mb-4">
+         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-facebook"></i></a>
+         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-twitter"></i></a>
+         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-instagram"></i></a>
+         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-linkedin"></i></a>
+      </section>
 
-   <!-- Footer -->
-   <footer class="bg-dark text-center text-white">
-      <div class="container p-4">
-         <section class="mb-4">
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-               <i class="bi bi-facebook"></i></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-               <i class="bi bi-twitter"></i></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-               <i class="bi bi-instagram"></i></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-               <i class="bi bi-linkedin"></i></a>
-         </section>
+      <section class="mb-4">
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+            eum harum corrupti dicta, aliquam sequi voluptate quas.
+         </p>
+      </section>
+      <section class="">
+         <div class="row">
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+               <h5 class="text-uppercase">Links</h5>
 
-         <section class="mb-4">
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-               repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-               eum harum corrupti dicta, aliquam sequi voluptate quas.
-            </p>
-         </section>
-         <section class="">
-            <div class="row">
-               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Links</h5>
-
-                  <ul class="list-unstyled mb-0">
-                     <li>
-                        <a routerLink="login" class="text-white">Link 1</a>
-                     </li>
-                     <li>
-                        <a routerLink="" class="text-white">Link 2</a>
-                     </li>
-                     <li>
-                        <a routerLink="" class="text-white">Link 3</a>
-                     </li>
-                     <li>
-                        <a routerLink="" class="text-white">Link 4</a>
-                     </li>
-                  </ul>
-               </div>
-
-               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase">Links</h5>
-
-                  <ul class="list-unstyled mb-0">
-                     <li>
-                        <a routerLink="" class="text-white">Link 1</a>
-                     </li>
-                     <li>
-                        <a routerLink="" class="text-white">Link 2</a>
-                     </li>
-                     <li>
-                        <a routerLink="" class="text-white">Link 3</a>
-                     </li>
-                     <li>
-                        <a routerLink="" class="text-white">Link 4</a>
-                     </li>
-                  </ul>
-               </div>
+               <ul class="list-unstyled mb-0">
+                  <li>
+                     <a routerLink="login" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                     <a routerLink="" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                     <a routerLink="" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                     <a routerLink="" class="text-white">Link 4</a>
+                  </li>
+               </ul>
             </div>
-         </section>
-      </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-         © 2020 Copyright:
-         <a class="text-white" href="https://misiontic.ucaldas.edu.co/">misiontic.ucaldas.ed</a>
-      </div>
-   </footer>
 
-</div>
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+               <h5 class="text-uppercase">Links</h5>
+
+               <ul class="list-unstyled mb-0">
+                  <li>
+                     <a routerLink="" class="text-white">Link 1</a>
+                  </li>
+                  <li>
+                     <a routerLink="" class="text-white">Link 2</a>
+                  </li>
+                  <li>
+                     <a routerLink="" class="text-white">Link 3</a>
+                  </li>
+                  <li>
+                     <a routerLink="" class="text-white">Link 4</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+   </div>
+   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://misiontic.ucaldas.edu.co/">misiontic.ucaldas.ed</a>
+   </div>
+</footer>

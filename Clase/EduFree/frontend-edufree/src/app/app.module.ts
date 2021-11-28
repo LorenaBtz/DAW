@@ -8,6 +8,9 @@ import { ProgramasEnOfertaComponent } from './programas-en-oferta/programas-en-o
 import { HttpClientModule } from '@angular/common/http';
 import { InscripcionesComponent } from './inscripciones/inscripciones.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { EstudianteComponent } from './estudiante/estudiante.component';
+import { DocenteComponent } from './docente/docente.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     LoginComponent,
     ProgramasEnOfertaComponent,
     InscripcionesComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    EstudianteComponent,
+    DocenteComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
