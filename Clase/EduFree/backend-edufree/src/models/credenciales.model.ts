@@ -10,8 +10,6 @@ export class Credenciales extends Model {
 
   @property({
     type: 'string',
-    id: true,
-    generated: false,
     required: true,
   })
   contrasenia: string;
